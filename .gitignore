@@ -4,3 +4,5 @@ custom_appdir/myapp/lib/configs/__pycache__
 custom_appdir/myapp/lib/infers/__pycache__
 custom_appdir/myapp/lib/trainers/__pycache__
 dataprep/.ipynb_checkpoints
+custom_appdir/myapp/__pycache__
+custom_appdir/myapp/logs/app.log
