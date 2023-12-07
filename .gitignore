@@ -1,0 +1,6 @@
+custom_appdir/myapp/lib/__pycache__
+custom_appdir/myapp/lib/activelearning/__pycache__
+custom_appdir/myapp/lib/configs/__pycache__
+custom_appdir/myapp/lib/infers/__pycache__
+custom_appdir/myapp/lib/trainers/__pycache__
+dataprep/.ipynb_checkpoints
