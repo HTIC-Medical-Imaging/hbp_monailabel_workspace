@@ -3,7 +3,12 @@
 
 # monailabel start_server --app /workspacedir/monailabel_appdir/pathology --studies /data/special/web_viewer_verify/tiles/
 
-monailabel start_server --app /workspacedir/monailabel_setup/custom_appdir/myapp --studies /data/special/web_viewer_verify/tiles/
+monailabel start_server --app /workspacedir/monailabel_setup/custom_appdir/myapp \
+  --studies /data/special/web_viewer_verify/tiles/ \
+  --conf skip_scoring false \
+  --conf skip_strategies false \
+  --conf epistemic_enabled true \
+  --conf tta_enabled true
 
 # https://github.com/Project-MONAI/MONAILabel/tree/0.7.0/sample-apps/monaibundle
 # monailabel start_server --app /workspacedir/monailabel_appdir/monaibundle --studies /data/special/web_viewer_verify/tiles/ --conf models pathology_nuclei_segmentation_classification_v0.2.1 \
